@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title> Class3-Nav</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar {
+            background-color: #00b3ee;
+        }
+
+        .container-fluid {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            direction: rtl;
+            transition: all .2s;
+            height: auto;
+        }
+
+        .name {
+            background-color: #00CCFF;
+            color: #EEEEEE;
+        }
+
+        .item1 {
+            background-color: #adadad;
+            color: #EEEEEE;
+        }
+
+        .item2 {
+            background-color: #9783b9;
+            color: #EEEEEE;
+        }
+
+        .item3 {
+            background-color: #00CC00;
+            color: #EEEEEE;
+        }
+
+        .dropdown {
+            background-color: #5bc0de;
+            color: #EEEEEE;
+            max-height: 50px;
+        }
+
+        .dropdownText {
+            color: #EEEEEE;
+        }
+
+        .img-rounded {
+            border: 2px solid #EEEEEE;
+            height: 50px;
+            width: 50px;
+        }
+
+        .item1 .badge {
+            background-color: #999999;
+        }
+
+        .item2 .badge {
+            background-color: #EE5757;
+        }
+
+        .item3 .badge {
+            background-color: #b2dba1;
+        }
+        a{
+            color: #EEEEEE;
+        }
+        .dropdown-toggle img{
+            margin-right: 10px;
+        }
+    </style>
+
+<body>
+<!--navbar-->
+<nav class="navbar navbar-fixed-top">
+    <!-- container-fluid-->
+
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand name" href="#">Meysam sakha<span class="glyphicon glyphicon-leaf"></span>
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="item item1"><a href="#">
+                <i class="glyphicon glyphicon-tasks"></i>
+                <span class="badge">4</span></a>
+            </li>
+            <li class="item item2"><a href="#">
+                <i class="glyphicon glyphicon-bell"></i>
+                <span class="badge">8</span></a>
+            </li>
+            <li class="item item3"><a href="#">
+                <i class="glyphicon glyphicon-envelope"></i>
+                <span class="badge bg-primary">5</span></a>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <img class="img-circle imgIcon img-rounded" src="img/a.jpg" height="1200" width="1800" alt="Avatar"/>
+                    <a class="dropdownText" style="text-decoration: none">Welcome,Meysam</a>
+                    <span class="caret"></span></div>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="glyphicon glyphicon-edit"> ویرایش مشخصات </i></a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-user"> مشاهده مشخصات </i></a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-log-out"> خروج </i></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--End-container-fluid-->
+
+</nav>
+<!--End-Navbar-->
+</body>
+</html>

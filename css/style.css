@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 1000px;
+}
+.container-fluid{
+  padding-right: 0;
+  height: auto;
+}
+.navbar{
+  border: 0;
+}
+/*nav 1&2*/
+.numberCircle1 {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  background: #FDB417;
+  border: 0px;
+  color: white;
+  text-align: center;
+  font: 16px Arial, sans-serif;
+  display: inline-block;
+}
+.numberCircle2 {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  background: #FF4136;
+  border: 0;
+  color: white;
+  text-align: center;
+  font: 15px Arial, sans-serif;
+  display: inline-block;
+}
+.numberCircle3 {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  background: #4cae4c;
+  border: 0;
+  color: white;
+  text-align: center;
+  font: 16px Arial, sans-serif;
+  display: inline-block;
+}
+
+/*nav 3*/
+
+
