@@ -1,75 +1,115 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-  width: 100%;
-  height: 1000px;
+
+body {
+    width: 100%;
+    height: 1000px;
 }
 
+.container-fluid {
+    padding-right: 0;
+    height: auto;
+}
 
 /*navbar*/
-.container-fluid{
-  padding-right: 0;
-  height: auto;
-}
-.navbar{
-  border: 0;
-}
+
 .navbar {
-  background-color: #00b3ee;
+    border: 0;
+    background-color: #00b3ee;
+
 }
+
 .container-fluid {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  direction: rtl;
-  transition: all .2s;
-  height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    direction: rtl;
+    transition: all .2s;
+    height: auto;
 }
+
 .name {
-  background-color: #00CCFF;
-  color: #EEEEEE;
+    background-color: #00CCFF;
+    color: #EEEEEE;
 }
+
 .item1 {
-  background-color: #adadad;
-  color: #EEEEEE;
+    background-color: #adadad;
+    color: #EEEEEE;
 }
+
 .item2 {
-  background-color: #9783b9;
-  color: #EEEEEE;
+    background-color: #9783b9;
+    color: #EEEEEE;
 }
+
 .item3 {
-  background-color: #00CC00;
-  color: #EEEEEE;
+    background-color: #00CC00;
+    color: #EEEEEE;
 }
-.dropdown {
-  background-color: #5bc0de;
-  color: #EEEEEE;
-  max-height: 50px;
-}
-.dropdownText {
-  color: #EEEEEE;
-}
+
 .img-rounded {
-  border: 2px solid #EEEEEE;
-  height: 50px;
-  width: 50px;
+    border: 2px solid #EEEEEE;
+    height: 50px;
+    width: 50px;
 }
+
 .item1 .badge {
-  background-color: #999999;
+    background-color: #999999;
 }
 
 .item2 .badge {
-  background-color: #EE5757;
+    background-color: #EE5757;
 }
+
 .item3 .badge {
-  background-color: #b2dba1;
+    background-color: #b2dba1;
 }
-a{
-  color: #EEEEEE;
+
+a {
+    color: #EEEEEE;
 }
-.dropdown-toggle img{
-  margin-right: 10px;
+
+.dropdown {
+    background-color: #5bc0de;
+    color: #EEEEEE;
+    max-height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle img {
+    margin-right: 10px;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #31708f;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown:hover .dropdown-toggle{
+    background-color: #269abc;
 }
